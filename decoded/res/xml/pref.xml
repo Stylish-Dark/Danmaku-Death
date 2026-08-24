@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+  <PreferenceCategory android:title="@0x7f09001d">
+    <PreferenceScreen
+      android:persistent="false"
+      android:title="@0x7f09001e"
+      android:key="sensitivity"
+      android:summary="hoge">
+      <intent
+        android:targetPackage="jakiganicsystems.danmakudeath"
+        android:action="android.intent.action.VIEW"
+        android:targetClass="jakiganicsystems.danmakudeath.menu.SensitivityDialogActivity">
+      </intent>
+    </PreferenceScreen>
+    <ListPreference
+      android:entries="@0x7f070000"
+      android:title="@0x7f09001f"
+      android:key="key_assign"
+      android:summary="@0x7f090020"
+      android:defaultValue="0"
+      android:dialogTitle="@0x7f090021"
+      android:entryValues="@0x7f070001">
+    </ListPreference>
+  </PreferenceCategory>
+  <PreferenceCategory android:title="@0x7f09002d">
+    <PreferenceScreen android:title="@0x7f09002e" android:key="avatar" android:summary="@0x7f09002f">
+      <intent
+        android:targetPackage="jakiganicsystems.danmakudeath"
+        android:action="android.intent.action.VIEW"
+        android:targetClass="jakiganicsystems.danmakudeath.menu.AvatarSelectActivity">
+      </intent>
+    </PreferenceScreen>
+    <PreferenceScreen
+      android:persistent="false"
+      android:title="@0x7f090030"
+      android:key="avatar_size"
+      android:summary="@0x7f090031">
+      <intent
+        android:targetPackage="jakiganicsystems.danmakudeath"
+        android:action="android.intent.action.VIEW"
+        android:targetClass="jakiganicsystems.danmakudeath.menu.AvatarSizeDialogActivity">
+      </intent>
+    </PreferenceScreen>
+    <CheckBoxPreference
+      android:title="@0x7f090035"
+      android:key="background"
+      android:summary="@0x7f090036"
+      android:defaultValue="true">
+    </CheckBoxPreference>
+  </PreferenceCategory>
+  <PreferenceCategory android:title="@0x7f090039">
+    <CheckBoxPreference android:title="@0x7f09003a" android:key="bgm_enabled" android:defaultValue="true">
+    </CheckBoxPreference>
+    <PreferenceScreen
+      android:persistent="false"
+      android:layout="?0x01010094"
+      android:title="@0x7f09003b"
+      android:key="bgm_volume"
+      android:summary="100"
+      android:dependency="bgm_enabled">
+      <intent
+        android:targetPackage="jakiganicsystems.danmakudeath"
+        android:action="android.intent.action.VIEW"
+        android:targetClass="jakiganicsystems.danmakudeath.menu.SeekbarDialogActivity">
+        <extra android:name="seek_bar_dialog_mode" android:value="0">
+        </extra>
+      </intent>
+    </PreferenceScreen>
+    <CheckBoxPreference android:title="@0x7f09003c" android:key="se_enabled" android:defaultValue="true">
+    </CheckBoxPreference>
+    <PreferenceScreen
+      android:persistent="false"
+      android:layout="?0x01010094"
+      android:title="@0x7f09003d"
+      android:key="se_volume"
+      android:summary="100"
+      android:dependency="se_enabled">
+      <intent
+        android:targetPackage="jakiganicsystems.danmakudeath"
+        android:action="android.intent.action.VIEW"
+        android:targetClass="jakiganicsystems.danmakudeath.menu.SeekbarDialogActivity">
+        <extra android:name="seek_bar_dialog_mode" android:value="1">
+        </extra>
+      </intent>
+    </PreferenceScreen>
+  </PreferenceCategory>
+  <PreferenceCategory android:title="@0x7f09003e">
+    <CheckBoxPreference
+      android:title="@0x7f09003f"
+      android:key="left_handed"
+      android:summary="@0x7f090040"
+      android:defaultValue="false">
+    </CheckBoxPreference>
+    <CheckBoxPreference
+      android:title="@0x7f090041"
+      android:key="short_tempered"
+      android:summary="@0x7f090042"
+      android:defaultValue="false">
+    </CheckBoxPreference>
+  </PreferenceCategory>
+  <PreferenceCategory android:title="@0x7f090043">
+    <PreferenceScreen android:title="@0x7f090043" android:key="play_history">
+      <PreferenceScreen android:title="@0x7f090044" android:key="player_name" android:summary="">
+      </PreferenceScreen>
+      <PreferenceScreen
+        android:persistent="false"
+        android:title="@0x7f090045"
+        android:key="first_boot"
+        android:summary="100">
+      </PreferenceScreen>
+      <PreferenceScreen
+        android:persistent="false"
+        android:title="@0x7f090046"
+        android:key="play_time"
+        android:summary="100">
+      </PreferenceScreen>
+      <PreferenceScreen
+        android:persistent="false"
+        android:title="@0x7f090047"
+        android:key="boot_count"
+        android:summary="100">
+      </PreferenceScreen>
+      <PreferenceScreen android:persistent="false" android:title="@0x7f090048" android:key="stars" android:summary="100">
+      </PreferenceScreen>
+      <PreferenceScreen
+        android:persistent="false"
+        android:title="@0x7f090049"
+        android:key="stage_no_star"
+        android:summary="100">
+      </PreferenceScreen>
+      <PreferenceScreen
+        android:persistent="false"
+        android:title="@0x7f09004a"
+        android:key="stage_one_star"
+        android:summary="100">
+      </PreferenceScreen>
+      <PreferenceScreen
+        android:persistent="false"
+        android:title="@0x7f09004b"
+        android:key="stage_two_stars"
+        android:summary="100">
+      </PreferenceScreen>
+      <PreferenceScreen
+        android:persistent="false"
+        android:title="@0x7f09004c"
+        android:key="stage_three_stars"
+        android:summary="100">
+      </PreferenceScreen>
+      <PreferenceScreen
+        android:persistent="false"
+        android:title="@0x7f09004d"
+        android:key="try_count"
+        android:summary="100">
+      </PreferenceScreen>
+      <PreferenceScreen
+        android:persistent="false"
+        android:title="@0x7f09004e"
+        android:key="shoot_down"
+        android:summary="100">
+      </PreferenceScreen>
+    </PreferenceScreen>
+  </PreferenceCategory>
+</PreferenceScreen>

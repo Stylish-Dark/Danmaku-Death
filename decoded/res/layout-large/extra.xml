@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="1"
+  android:id="@0x7f0b0005"
+  android:background="@0x7f020082"
+  android:layout_width="-1"
+  android:layout_height="-1">
+  <LinearLayout
+    android:gravity="0x1"
+    android:orientation="1"
+    android:paddingTop="0x00009601"
+    android:layout_width="-1"
+    android:layout_height="-2">
+    <TextView
+      android:textSize="0x00001401"
+      android:textColor="@0x7f02007e"
+      android:id="@0x7f0b0006"
+      android:paddingTop="0x00001401"
+      android:paddingBottom="0x00001401"
+      android:layout_width="-2"
+      android:layout_height="-2"
+      android:text="CRIMSON MODE">
+    </TextView>
+    <TextView
+      android:textSize="0x00001401"
+      android:textColor="@0x7f02007e"
+      android:id="@0x7f0b0007"
+      android:paddingTop="0x00001401"
+      android:paddingBottom="0x00001401"
+      android:layout_width="-2"
+      android:layout_height="-2"
+      android:text="GAME DATA BACKUP">
+    </TextView>
+  </LinearLayout>
+</LinearLayout>

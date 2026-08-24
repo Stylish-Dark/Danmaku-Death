@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="1"
+  android:id="@0x7f0b0003"
+  android:layout_width="-1"
+  android:layout_height="-1">
+  <TextView
+    android:id="@0x7f0b0068"
+    android:layout_width="-2"
+    android:layout_height="-2"
+    android:text="show stageid">
+  </TextView>
+  <TextView
+    android:id="@0x7f0b0014"
+    android:layout_width="-2"
+    android:layout_height="-2"
+    android:text="my_scoreへのINSERT">
+  </TextView>
+  <EditText android:id="@0x7f0b0069" android:layout_width="-1" android:layout_height="-2">
+    <requestFocus>
+    </requestFocus>
+  </EditText>
+  <Button android:id="@0x7f0b006a" android:layout_width="-2" android:layout_height="-2" android:text="Button">
+  </Button>
+  <TextView
+    android:id="@0x7f0b006b"
+    android:layout_width="-2"
+    android:layout_height="-2"
+    android:layout_marginTop="0x00000a01"
+    android:text="stage_historyへのsave">
+  </TextView>
+  <TextView
+    android:id="@0x7f0b006c"
+    android:layout_width="-2"
+    android:layout_height="-2"
+    android:text="number of stars">
+  </TextView>
+  <EditText android:id="@0x7f0b006d" android:layout_width="-1" android:layout_height="-2">
+  </EditText>
+  <Button android:id="@0x7f0b006e" android:layout_width="-2" android:layout_height="-2" android:text="Button">
+  </Button>
+  <Button
+    android:id="@0x7f0b006f"
+    android:layout_width="-2"
+    android:layout_height="-2"
+    android:text="Delete this stage">
+  </Button>
+  <Button
+    android:id="@0x7f0b0070"
+    android:layout_width="-2"
+    android:layout_height="-2"
+    android:text="Delete all stage">
+  </Button>
+</LinearLayout>

@@ -1,0 +1,108 @@
+00000	-c
+00001	/system/bin/sh
+00002	<init>
+00003	Backup exported.
+00004	Backup imported. Reopen the game.
+00005	Danmaku_Death_Data.sav
+00006	EXPORT GAME DATA
+00007	Export failed.
+00008	Export or restore saves, settings and replays. Backups survive uninstall and future builds.
+00009	GAME DATA BACKUP
+00010	I
+00011	IL
+00012	IMPORT GAME DATA
+00013	Import failed. Existing data was kept.
+00014	L
+00015	LI
+00016	LL
+00017	LLL
+00018	LLLI
+00019	Landroid/app/Activity;
+00020	Landroid/content/ContentResolver;
+00021	Landroid/content/Context;
+00022	Landroid/content/Intent;
+00023	Landroid/net/Uri;
+00024	Landroid/os/Bundle;
+00025	Landroid/os/Process;
+00026	Landroid/view/View$OnClickListener;
+00027	Landroid/view/View;
+00028	Landroid/widget/Button;
+00029	Landroid/widget/LinearLayout;
+00030	Landroid/widget/TextView;
+00031	Landroid/widget/Toast;
+00032	Lappc/db;
+00033	Ljakiganicsystems/danmakudeath/a;
+00034	Ljakiganicsystems/danmakudeath/bd;
+00035	Ljakiganicsystems/danmakudeath/db/a;
+00036	Ljakiganicsystems/danmakudeath/menu/A14Launcher;
+00037	Ljakiganicsystems/danmakudeath/menu/TitleActivity;
+00038	Ljava/io/InputStream;
+00039	Ljava/io/OutputStream;
+00040	Ljava/lang/CharSequence;
+00041	Ljava/lang/Class;
+00042	Ljava/lang/Integer;
+00043	Ljava/lang/Object;
+00044	Ljava/lang/Process;
+00045	Ljava/lang/Runtime;
+00046	Ljava/lang/String;
+00047	Ljava/util/List;
+00048	V
+00049	VI
+00050	VIIII
+00051	VIIL
+00052	VL
+00053	VLI
+00054	VLII
+00055	VLL
+00056	Z
+00057	ZL
+00058	[B
+00059	[Ljava/lang/String;
+00060	a
+00061	addCategory
+00062	addView
+00063	android.intent.action.CREATE_DOCUMENT
+00064	android.intent.action.OPEN_DOCUMENT
+00065	android.intent.category.OPENABLE
+00066	android.intent.extra.TITLE
+00067	application/octet-stream
+00068	cd /data/data/jakiganicsystems.danmakudeath && mkdir -p shared_prefs databases files no_backup && /system/bin/toybox tar -cf - shared_prefs databases files no_backup
+00069	cd /data/data/jakiganicsystems.danmakudeath && rm -rf cache/a14_restore && mkdir -p cache/a14_restore && /system/bin/toybox tar -xf - -C cache/a14_restore && if [ ! -d cache/a14_restore/shared_prefs ] && [ ! -d cache/a14_restore/databases ]; then exit 23; fi && rm -rf shared_prefs databases files no_backup && for d in shared_prefs databases files no_backup; do if [ -e cache/a14_restore/$d ]; then mv cache/a14_restore/$d .; else mkdir -p $d; fi; done && rm -rf cache/a14_restore
+00070	close
+00071	contains
+00072	copy
+00073	e
+00074	exec
+00075	finish
+00076	g
+00077	getContentResolver
+00078	getData
+00079	getId
+00080	getInputStream
+00081	getOutputStream
+00082	getRuntime
+00083	killProcess
+00084	makeText
+00085	myPid
+00086	onActivityResult
+00087	onClick
+00088	onCreate
+00089	openInputStream
+00090	openOutputStream
+00091	putExtra
+00092	read
+00093	setContentView
+00094	setId
+00095	setOnClickListener
+00096	setOrientation
+00097	setPadding
+00098	setRequestedOrientation
+00099	setText
+00100	setType
+00101	shell
+00102	show
+00103	startActivity
+00104	startActivityForResult
+00105	valueOf
+00106	waitFor
+00107	write

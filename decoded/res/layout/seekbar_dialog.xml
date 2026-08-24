@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="1"
+  android:paddingLeft="0x00000f01"
+  android:paddingTop="0x00001e01"
+  android:paddingRight="0x00000f01"
+  android:paddingBottom="0x00001901"
+  android:layout_width="-1"
+  android:layout_height="-1">
+  <SeekBar
+    android:id="@0x7f0b0034"
+    android:layout_width="-1"
+    android:layout_height="-2"
+    android:layout_marginBottom="0x00000801">
+  </SeekBar>
+  <TextView android:id="@0x7f0b0035" android:layout_width="-2" android:layout_height="-2" android:text="80/100">
+  </TextView>
+</LinearLayout>

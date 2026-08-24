@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="1"
+  android:id="@0x7f0b000b"
+  android:background="@0x7f080001"
+  android:layout_width="-1"
+  android:layout_height="-1">
+  <LinearLayout
+    android:orientation="1"
+    android:id="@0x7f0b000c"
+    android:background="@0x7f080002"
+    android:padding="0x00000801"
+    android:layout_width="-1"
+    android:layout_height="-2"
+    android:layout_marginLeft="0x00001001"
+    android:layout_marginTop="0x00000801"
+    android:layout_marginRight="0x00001001"
+    android:layout_marginBottom="0x00000801">
+    <TextView
+      android:textSize="0x00001601"
+      android:textColor="@0x7f080005"
+      android:id="@0x7f0b000d"
+      android:layout_width="-2"
+      android:layout_height="-2"
+      android:text="たいとる">
+    </TextView>
+    <TextView
+      android:textSize="0x00000f01"
+      android:textColor="@0x7f080004"
+      android:id="@0x7f0b000e"
+      android:layout_width="-2"
+      android:layout_height="-2"
+      android:text="3 days ago.">
+    </TextView>
+    <LinearLayout
+      android:orientation="1"
+      android:id="@0x7f0b000f"
+      android:background="@0x7f080001"
+      android:layout_width="-1"
+      android:layout_height="0x00000100"
+      android:layout_marginTop="0x00000301"
+      android:layout_marginBottom="0x00000301">
+    </LinearLayout>
+    <TextView
+      android:textSize="0x00001001"
+      android:textColor="@0x7f080005"
+      android:autoLink="0x1"
+      android:id="@0x7f0b0010"
+      android:layout_width="-2"
+      android:layout_height="-2"
+      android:text="本文です。本文です。ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ">
+    </TextView>
+  </LinearLayout>
+</LinearLayout>

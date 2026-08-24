@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="0"
+  android:background="@0x7f080001"
+  android:paddingLeft="0x00000a01"
+  android:paddingTop="0x00000501"
+  android:paddingRight="0x00000a01"
+  android:paddingBottom="0x00000501"
+  android:layout_width="-1"
+  android:layout_height="-1">
+  <LinearLayout
+    android:gravity="0x10"
+    android:id="@0x7f0b0017"
+    android:background="@0x7f020071"
+    android:layout_width="-1"
+    android:layout_height="0x00003c01">
+    <TextView
+      android:textSize="0x00001401"
+      android:textColor="@0x7f020072"
+      android:layout_gravity="0x10"
+      android:id="@0x7f0b005e"
+      android:layout_width="-2"
+      android:layout_height="-2"
+      android:layout_marginLeft="0x00000a01"
+      android:layout_marginTop="0x00000201"
+      android:text="012">
+    </TextView>
+    <ImageView
+      android:id="@0x7f0b005f"
+      android:layout_width="0x00003201"
+      android:layout_height="0x00003201"
+      android:layout_marginLeft="0x00001401">
+    </ImageView>
+    <ImageView
+      android:id="@0x7f0b0060"
+      android:layout_width="-2"
+      android:layout_height="-2"
+      android:layout_marginLeft="0x00001e01"
+      android:layout_marginRight="0x00000501">
+    </ImageView>
+  </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:versionCode="51"
+  android:versionName="19.4"
+  android:installLocation="0"
+  package="jakiganicsystems.danmakudeath">
+  <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="33">
+  </uses-sdk>
+  <uses-permission android:name="android.permission.INTERNET">
+  </uses-permission>
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE">
+  </uses-permission>
+  <supports-screens
+    android:anyDensity="true"
+    android:smallScreens="false"
+    android:normalScreens="true"
+    android:largeScreens="true"
+    android:xlargeScreens="true">
+  </supports-screens>
+  <application
+    android:theme="@0x01030006"
+    android:label="@0x7f090000"
+    android:icon="@0x7f020042"
+    android:name=".App"
+    android:usesCleartextTraffic="true"
+    android:allowBackup="false">
+    <activity android:name="jakiganicsystems.danmakudeath.menu.A14Launcher" android:exported="true">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN">
+        </action>
+        <category android:name="android.intent.category.LAUNCHER">
+        </category>
+      </intent-filter>
+    </activity>
+    <activity android:name="jakiganicsystems.danmakudeath.SurfaceActivity" android:screenOrientation="1">
+    </activity>
+    <activity android:name="jakiganicsystems.danmakudeath.menu.TitleActivity" android:screenOrientation="1">
+    </activity>
+    <activity
+      android:name="jakiganicsystems.danmakudeath.menu.DanmakuPreferenceActivity"
+      android:screenOrientation="1">
+    </activity>
+    <activity android:name="jakiganicsystems.danmakudeath.menu.ReportActivity" android:screenOrientation="1">
+    </activity>
+    <activity
+      android:theme="@0x0103000a"
+      android:name="jakiganicsystems.danmakudeath.GameBase"
+      android:screenOrientation="1"
+      android:configChanges="0xa0"
+      android:hardwareAccelerated="true">
+    </activity>
+    <activity
+      android:theme="@0x0103000a"
+      android:name="jakiganicsystems.danmakudeath.firstaniv.GameBaseFirstAniv"
+      android:screenOrientation="1"
+      android:configChanges="0xa0"
+      android:hardwareAccelerated="true">
+    </activity>
+    <activity android:name="jakiganicsystems.danmakudeath.menu.StageSelectActivity" android:screenOrientation="1">
+    </activity>
+    <activity android:name="jakiganicsystems.danmakudeath.menu.StageDetailActivity" android:screenOrientation="1">
+    </activity>
+    <activity android:name="jakiganicsystems.danmakudeath.menu.LeaderbordActivity" android:screenOrientation="1">
+    </activity>
+    <activity
+      android:name="jakiganicsystems.danmakudeath.menu.AvatarSelectActivity"
+      android:screenOrientation="1">
+    </activity>
+    <activity
+      android:theme="@0x7f0a0000"
+      android:name="jakiganicsystems.danmakudeath.menu.InputNameActivity"
+      android:screenOrientation="1">
+    </activity>
+    <activity
+      android:theme="@0x7f0a0000"
+      android:name="jakiganicsystems.danmakudeath.menu.SeekbarDialogActivity"
+      android:screenOrientation="1">
+    </activity>
+    <activity
+      android:theme="@0x7f0a0000"
+      android:name="jakiganicsystems.danmakudeath.menu.SensitivityDialogActivity"
+      android:screenOrientation="1">
+    </activity>
+    <activity
+      android:theme="@0x7f0a0000"
+      android:name="jakiganicsystems.danmakudeath.menu.AvatarSizeDialogActivity"
+      android:screenOrientation="1">
+    </activity>
+    <activity android:name="appc.db" android:screenOrientation="1">
+    </activity>
+    <activity android:name="jakiganicsystems.danmakudeath.menu.ExtraActivity" android:screenOrientation="1">
+    </activity>
+    <activity android:name="com.google.ads.AdActivity" android:configChanges="0xfb0">
+    </activity>
+  </application>
+</manifest>

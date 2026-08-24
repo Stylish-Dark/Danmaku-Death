@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="1"
+  android:padding="0x00000a01"
+  android:layout_width="-1"
+  android:layout_height="-1">
+  <TextView
+    android:textSize="0x00000f01"
+    android:textColor="@0x01060001"
+    android:id="@0x7f0b0011"
+    android:layout_width="-2"
+    android:layout_height="-2"
+    android:text="%0位にランクインしました！
+コメントをどうぞ！">
+  </TextView>
+  <EditText
+    android:gravity="0x30"
+    android:id="@0x7f0b0012"
+    android:layout_width="-1"
+    android:layout_height="0x00007801"
+    android:layout_marginTop="0x00000a01"
+    android:hint="任意"
+    android:lines="5"
+    android:maxLength="140"
+    android:inputType="0x20001">
+    <requestFocus>
+    </requestFocus>
+  </EditText>
+  <LinearLayout android:id="@0x7f0b000f" android:layout_width="-1" android:layout_height="-2">
+    <TextView
+      android:textSize="0x00000c01"
+      android:textColor="#ff999999"
+      android:id="@0x7f0b0013"
+      android:layout_width="-2"
+      android:layout_height="-2"
+      android:text="あと140文字。">
+    </TextView>
+    <TextView
+      android:textSize="0x00000c01"
+      android:textColor="#ff999999"
+      android:layout_width="-2"
+      android:layout_height="-2"
+      android:layout_marginLeft="0x00000201"
+      android:text="改行は無視されます。">
+    </TextView>
+  </LinearLayout>
+</LinearLayout>

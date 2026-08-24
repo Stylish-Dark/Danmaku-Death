@@ -1,0 +1,57 @@
+class	method	return	params
+Landroid/app/Activity;	<init>	V	
+Landroid/app/Activity;	finish	V	
+Landroid/app/Activity;	getContentResolver	Landroid/content/ContentResolver;	
+Landroid/app/Activity;	onActivityResult	V	I,I,Landroid/content/Intent;
+Landroid/app/Activity;	onCreate	V	Landroid/os/Bundle;
+Landroid/app/Activity;	setContentView	V	Landroid/view/View;
+Landroid/app/Activity;	setRequestedOrientation	V	I
+Landroid/app/Activity;	startActivity	V	Landroid/content/Intent;
+Landroid/app/Activity;	startActivityForResult	V	Landroid/content/Intent;,I
+Landroid/content/ContentResolver;	openInputStream	Ljava/io/InputStream;	Landroid/net/Uri;
+Landroid/content/ContentResolver;	openOutputStream	Ljava/io/OutputStream;	Landroid/net/Uri;
+Landroid/content/Intent;	<init>	V	Landroid/content/Context;,Ljava/lang/Class;
+Landroid/content/Intent;	<init>	V	Ljava/lang/String;
+Landroid/content/Intent;	addCategory	Landroid/content/Intent;	Ljava/lang/String;
+Landroid/content/Intent;	getData	Landroid/net/Uri;	
+Landroid/content/Intent;	putExtra	Landroid/content/Intent;	Ljava/lang/String;,Ljava/lang/String;
+Landroid/content/Intent;	setType	Landroid/content/Intent;	Ljava/lang/String;
+Landroid/os/Process;	killProcess	V	I
+Landroid/os/Process;	myPid	I	
+Landroid/view/View;	getId	I	
+Landroid/view/View;	setId	V	I
+Landroid/view/View;	setOnClickListener	V	Landroid/view/View$OnClickListener;
+Landroid/view/View;	setPadding	V	I,I,I,I
+Landroid/widget/Button;	<init>	V	Landroid/content/Context;
+Landroid/widget/LinearLayout;	<init>	V	Landroid/content/Context;
+Landroid/widget/LinearLayout;	addView	V	Landroid/view/View;
+Landroid/widget/LinearLayout;	setOrientation	V	I
+Landroid/widget/TextView;	<init>	V	Landroid/content/Context;
+Landroid/widget/TextView;	setText	V	Ljava/lang/CharSequence;
+Landroid/widget/Toast;	makeText	Landroid/widget/Toast;	Landroid/content/Context;,Ljava/lang/CharSequence;,I
+Landroid/widget/Toast;	show	V	
+Lappc/db;	<init>	V	
+Lappc/db;	copy	V	Ljava/io/InputStream;,Ljava/io/OutputStream;
+Lappc/db;	onActivityResult	V	I,I,Landroid/content/Intent;
+Lappc/db;	onClick	V	Landroid/view/View;
+Lappc/db;	onCreate	V	Landroid/os/Bundle;
+Lappc/db;	shell	Ljava/lang/Process;	Ljava/lang/String;
+Ljakiganicsystems/danmakudeath/a;	a	V	
+Ljakiganicsystems/danmakudeath/bd;	a	V	Landroid/content/Context;
+Ljakiganicsystems/danmakudeath/db/a;	<init>	V	
+Ljakiganicsystems/danmakudeath/db/a;	e	V	
+Ljakiganicsystems/danmakudeath/db/a;	g	Ljava/util/List;	
+Ljakiganicsystems/danmakudeath/db/a;	g	V	I
+Ljakiganicsystems/danmakudeath/menu/A14Launcher;	<init>	V	
+Ljakiganicsystems/danmakudeath/menu/A14Launcher;	onCreate	V	Landroid/os/Bundle;
+Ljava/io/InputStream;	close	V	
+Ljava/io/InputStream;	read	I	[B
+Ljava/io/OutputStream;	close	V	
+Ljava/io/OutputStream;	write	V	[B,I,I
+Ljava/lang/Integer;	valueOf	Ljava/lang/Integer;	I
+Ljava/lang/Process;	getInputStream	Ljava/io/InputStream;	
+Ljava/lang/Process;	getOutputStream	Ljava/io/OutputStream;	
+Ljava/lang/Process;	waitFor	I	
+Ljava/lang/Runtime;	exec	Ljava/lang/Process;	[Ljava/lang/String;
+Ljava/lang/Runtime;	getRuntime	Ljava/lang/Runtime;	
+Ljava/util/List;	contains	Z	Ljava/lang/Object;

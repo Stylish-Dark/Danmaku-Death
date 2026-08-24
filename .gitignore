@@ -1,0 +1,20 @@
+# Never commit private signing material
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+
+# Generated/rebuilt APKs unless deliberately archived under release/
+build/
+out/
+work/
+*.idsig
+
+# Local tooling/cache
+.cache/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

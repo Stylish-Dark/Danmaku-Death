@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="1"
+  android:paddingLeft="0x00000f01"
+  android:paddingTop="0x00000f01"
+  android:paddingRight="0x00000f01"
+  android:paddingBottom="0x00000f01"
+  android:layout_width="-1"
+  android:layout_height="-1">
+  <TextView
+    android:id="@0x7f0b0036"
+    android:layout_width="-2"
+    android:layout_height="-2"
+    android:layout_marginBottom="0x00001401"
+    android:text="@0x7f090016">
+  </TextView>
+  <SeekBar
+    android:id="@0x7f0b0037"
+    android:layout_width="-1"
+    android:layout_height="-2"
+    android:layout_marginBottom="0x00000f01">
+  </SeekBar>
+  <LinearLayout android:id="@0x7f0b000f" android:layout_width="-1" android:layout_height="-2">
+    <TextView
+      android:id="@0x7f0b0038"
+      android:layout_width="0x00000001"
+      android:layout_height="-2"
+      android:text="xx%"
+      android:layout_weight="1.0">
+    </TextView>
+    <Button
+      android:id="@0x7f0b0039"
+      android:layout_width="-2"
+      android:layout_height="-2"
+      android:minWidth="0x00005a01"
+      android:text="Reset">
+    </Button>
+  </LinearLayout>
+</LinearLayout>
